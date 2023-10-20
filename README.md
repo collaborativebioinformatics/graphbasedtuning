@@ -47,7 +47,7 @@ query prompt with triples"]
 ## Methodology
 Dataset: We compiled 44,663 drug-relationship-target triplets from the xxx database, which are in “drug_relationship_target.csv”.
 
-Preprocessing: The triplets were preprocessed into a prompt-response format for LLAMA2, see “inputdata.txt”. Sample: <s>[INST] Tell me more about the drug with ID D07OAC. [/INST] Drug D07OAC is an inhibitor to target protein S5A2_HUMAN. </s>
+Preprocessing: The triplets were preprocessed into a prompt-response format for LLAMA2, see “inputdata.txt”. Sample: '<s>[INST] Tell me more about the drug with ID D07OAC. [/INST] Drug D07OAC is an inhibitor to target protein S5A2_HUMAN. </s>'
 
 Training and Inference: A LLAMA2-7b model was then fine-tuned on the preprocessed data.
 
