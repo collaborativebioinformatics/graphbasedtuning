@@ -59,7 +59,7 @@ query prompt with triples"]
 ```
 
 ## Final Workflow
-![Sample Graph](/content/updated_workflow.png)
+![SUpdated Workflow](/content/updated%20workflow.png)
 
 ## Methodology
 ### Dataset
