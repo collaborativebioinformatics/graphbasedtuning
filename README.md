@@ -58,7 +58,8 @@ Below is a knowledge graph generated from 20 sample triples.
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
 **Inference and Results**: Finally, our fine-tuned model was benchmarked against ChatGPT and the original LLAMA2 model using the prompt "What can the drug with ID D07OAC do?". From the results, ChatGPT and the original LLAMA2 model were unable to respond to this prompt, whereas our fine-tuned model could suggest possible target proteins to the drug and the corresponding binding relationships.
-![LLAMA2_answer](/content/LLAMA2_original.png)
+![ChatGPT_answer](/content/chatgpt.png)
+![LLAMA2_answer](/content/LLAMA2.png)
 
 ## Related Works
 
