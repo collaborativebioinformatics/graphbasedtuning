@@ -19,7 +19,7 @@ Given that LLMs can answer queries quickly and efficiently, they could be useful
 
 Knowledge graphs can store factually correct relationships between data points, giving them the ability to answer complex queries. Hence, we believe that fine-tuning LLMs with knowledge graphs can aid LLMs in drug treatment recommendations.
 
-## Project Objective
+## Research Motivation
 Our project aims to improve the inference ability of LLMs for generating recommendations on drug treatment. We constructed a knowledge graph catered to therapeutics and then fine-tuned the LLM on the information network. 
 
 ## Initial Brainstorming
