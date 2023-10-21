@@ -1,7 +1,21 @@
+![graphic](/content/cmu-hackathon-graphic.jfif)
+
 # graphbasedloading
+This project was developed by our team at the 2023 Carnegie Mellon & DNAnexus Hackathon hosted on October 19th to 21st, 2023. Scientists across the country worked together in-person and remotely to advance "data management and graph extraction for large models in the biomedical space". 
+
+## Team
+Our team came together from multiple locations. 
+* Emerson Huitt @ Raleigh, NC
+* Minh Tran @ Pittsburgh, PA
+* Mingyue (Phoebe) Li @ 
+* Glenda Tan @ 
+* Van Truong @ Philadelphia, PA
+* David Enoma @ 
+* Hao Ren @ 
+* Ankit Sanghvi @ 
 
 ## Introduction
-This is a project from the CMU/DNAnexus Hackathon 2023, in which we are improving LLMs’ inferences for drug treatment recommendations by fine-tuning them with knowledge graphs.
+We are improving LLMs’ inferences for drug treatment recommendations by fine-tuning them with knowledge graphs.
 
 ## Research Motivation
 Given that LLMs can answer queries quickly and efficiently, they could be useful in recommending drug treatments for various diseases, where time is of the essence. However, as their training data may be factually incorrect or outdated, LLMs are often unreliable in recommending drug treatments. 
