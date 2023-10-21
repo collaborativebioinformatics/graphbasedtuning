@@ -58,7 +58,7 @@ query prompt with triples"]
   I-->F
 ```
 
-## Workflow
+## Final Workflow
 ![Sample Graph](/updated_workflow.png)
 
 ## Methodology
