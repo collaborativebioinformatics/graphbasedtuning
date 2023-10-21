@@ -10,7 +10,7 @@ Our team came together from multiple locations.
 * Mingyue (Phoebe) Li @ Pittsburgh, PA
 * Glenda Tan @ Pittsburgh, PA
 * Van Truong @ Philadelphia, PA
-* David Enoma @ 
+* David Enoma @ Canada
 
 ## Introduction
 We are improving LLMs’ inferences for drug treatment recommendations by fine-tuning them with knowledge graphs.
