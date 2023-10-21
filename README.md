@@ -47,7 +47,7 @@ query prompt with triples"]
 ## Methodology
 **Dataset**: 44,663 drug-relationship-target triples were compiled from the Therapeutic Target Database[4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
 
-![Sample Graph](graph.png)
+![Sample Graph](/content/graph.png)
 
 **Preprocessing**: The triples were preprocessed into a prompt-response format for finetuning LLAMA2 in “inputdata.txt” by leveraging the GPT API.  Raw triples in CSV format were fed to the API with a formatting tranformation prompt to create appropriate instruction answer prompts for LLAMA2 tuningin. 
 
@@ -58,6 +58,21 @@ query prompt with triples"]
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
 **Inference**: Finally, our fine-tuned model was benchmarked as shown [here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
+
+## Related Works
+
+### Jane: the Immunology Knowledge Assistant
+This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit.app/#jane-the-immunology-knowledge-assistant) is a large language model which was fed information from Janeway's Immunobiology and Organ Mapping Antibody Panels (OMAPs) from Human Reference Atlas Portal. The quality of the prompt inputted influences the quality of output/response. 
+![immuno chatbot](/content/immuno-app-chatbot01.png)
+
+![immuno chatbot](/content/immuno-app-chatbot02.png)
+
+
+
+## Relevant Biomedical Knowledge Graphs
+There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. 
+
+
 
 ## References
 1. Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
