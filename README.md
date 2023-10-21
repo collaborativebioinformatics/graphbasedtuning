@@ -6,11 +6,13 @@ This project was developed by our team at the 2023 Carnegie Mellon & DNAnexus Ha
 ## Team
 Our team came together from multiple locations. 
 * Emerson Huitt @ Raleigh, NC
+* Glenda Tan @ Pittsburgh, PA
 * Minh Tran @ Pittsburgh, PA
 * Mingyue (Phoebe) Li @ Pittsburgh, PA
-* Glenda Tan @ Pittsburgh, PA
-* Van Truong @ Philadelphia, PA
 * David Enoma @ Canada
+* Van Truong @ Philadelphia, PA
+
+![team-pic](/content/2023-10-21-carnegie-mellon-team-slide.png)
 
 ## Introduction
 We are improving LLMs’ inferences for drug treatment recommendations by fine-tuning them with knowledge graphs.
