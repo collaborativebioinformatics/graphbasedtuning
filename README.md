@@ -96,7 +96,7 @@ There is a vast set of resources, especially well-curated biomedical knowledge g
 | Reactome Graph   | Yes          | 2018          | [Link](https://reactome.org/dev/graph-database) / [Paper](https://www.ncbi.nlm.nih.gov/pubmed/29377902) |
 | Hetionet         | Yes          | 2017          | [Link](https://het.io) / [Paper](https://doi.org/10.7554/elife.26726) |
 | DrugBank         | No           | 2008          | [Link](https://go.drugbank.com/) / [Paper](https://pubmed.ncbi.nlm.nih.gov/18048412/) |
-
+| Petagraph        | Yes          | 2023          | [Link](https://docs.rs/petgraph/latest/petgraph/) / [Paper](https://www.biorxiv.org/content/biorxiv/early/2023/02/13/2023.02.11.528088.full.pdf) | 
 
 ## References
 1. Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
@@ -106,3 +106,5 @@ There is a vast set of resources, especially well-curated biomedical knowledge g
 3. Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen. LoRA: Low-Rank Adaptation of Large Language Models, https://arxiv.org/pdf/2106.09685.pdf 
 
 4. Y. Zhou, Y. T. Zhang, D. H. Zhao, X. Y. Yu, X. Y. Shen, Y. Zhou, S. S. Wang , Y. Q. Qiu*, Y. Z. Chen* & F. Zhu* . TTD: Therapeutic Target Database describing target druggability information. Nucleic Acids Research. doi: 10.1093/nar/gkad751 (2023). PMID: 37713619
+
+5. Stear, B. J., Ahooyi, T. M., Vasisht, S., Simmons, A., Beigel, K., Callahan, T. J., Silverstein, J. C., &amp; Taylor, D. M. (2023, January 1). Petagraph: A large-scale unifying knowledge graph framework for integrating biomolecular and biomedical data. bioRxiv. https://www.biorxiv.org/content/10.1101/2023.02.11.528088v1 
