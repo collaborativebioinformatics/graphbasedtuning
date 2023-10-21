@@ -14,13 +14,13 @@ Our team came together from multiple locations.
 
 ![team-pic](/content/2023-10-21-carnegie-mellon-team-slide.png)
 
-## Introduction
-We are improving LLMs’ inferences for drug treatment recommendations by fine-tuning them with knowledge graphs.
+## Background
+Given that LLMs can answer queries quickly and efficiently, they could be useful in recommending drug treatments for various diseases, where time is of the essence. However, as their training data may be factually incorrect or outdated, large-language models (LLMs) are often unreliable in recommending drug treatments. 
 
-## Research Motivation
-Given that LLMs can answer queries quickly and efficiently, they could be useful in recommending drug treatments for various diseases, where time is of the essence. However, as their training data may be factually incorrect or outdated, LLMs are often unreliable in recommending drug treatments. 
+Knowledge graphs can store factually correct relationships between data points, giving them the ability to answer complex queries. Hence, we believe that fine-tuning LLMs with knowledge graphs can aid LLMs in drug treatment recommendations.
 
-Knowledge graphs can store factually correct relationships between data points, giving them the ability to answer complex queries. Hence, we believe that fine-tuning LLMs with knowledge graphs could aid LLMs in recommending drug treatments.
+## Project Objective
+Our project aims to improve the inference ability of LLMs for generating recommendations on drug treatment. We constructed a knowledge graph catered to therapeutics and then fine-tuned the LLM on the information network. 
 
 ## Initial Brainstorming
 ```mermaid
