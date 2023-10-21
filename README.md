@@ -63,7 +63,7 @@ Below is a knowledge graph generated from 20 sample triples.
 ## Related Works
 
 ### Jane: the Immunology Knowledge Assistant
-This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit.app/#jane-the-immunology-knowledge-assistant) is a large language model which was fed information from Janeway's Immunobiology and Organ Mapping Antibody Panels (OMAPs) from Human Reference Atlas Portal. The quality of the prompt inputted influences the quality of output/response. 
+This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit.app/#jane-the-immunology-knowledge-assistant) is a large language model which was fed information from Janeway's Immunobiology and Organ Mapping Antibody Panels (OMAPs) from Human Reference Atlas Portal. Users can ask any immunology questions, but the input prompt influences the quality output/response. 
 ![immuno chatbot](/content/immuno-app-chatbot01.png)
 
 ![immuno chatbot](/content/immuno-app-chatbot02.png)
