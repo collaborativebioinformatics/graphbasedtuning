@@ -65,6 +65,7 @@ Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/t
 Finally, our fine-tuned model was benchmarked against ChatGPT and the original LLAMA2 model using the prompt "What can the drug with ID D0Y6UB do?". From the results, ChatGPT and the original LLAMA2 model were unable to respond to this prompt, whereas our fine-tuned model could suggest possible target proteins to the drug and the corresponding binding relationships.
 
 ChatGPT's response:
+
 ![ChatGPT_answer](/content/chatgpt.png)
 
 Original LLAMA2's response:
