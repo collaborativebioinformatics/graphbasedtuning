@@ -45,7 +45,7 @@ query prompt with triples"]
 ```
 
 ## Methodology
-**Dataset**: We compiled 44,663 drug-relationship-target triplets from the Therapeutic Target Database, which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
+**Dataset**: 44,663 drug-relationship-target triplets were compiled from the Therapeutic Target Database, which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
 
 ![Sample Graph](graph.png)
 
@@ -57,9 +57,7 @@ query prompt with triples"]
 **Deployment**: Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/tminh/nexus
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
-
 **Inference**: Finally, our fine-tuned model was benchmarked as shown [here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
-
 
 ## References
 Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
