@@ -80,11 +80,6 @@ This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit
 
 ![immuno chatbot](/content/immuno-app-chatbot03.png)
 
-### original llma2-7b on HuggingFace
-Here is the original [LLMA2-7B application](https://1916e37232cabeda6a.gradio.live/) available on HuggingFace where users can test the implementation for themselves. 
-![original llma-7b](/content/original-llma2-7b.png)
-
-
 ## Relevant Biomedical Knowledge Graphs
 There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. 
 
