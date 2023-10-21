@@ -58,6 +58,9 @@ query prompt with triples"]
   I-->F
 ```
 
+## Updated Workflow
+![Sample Graph](/updated_workflow.png)
+
 ## Methodology
 ### Dataset
 38,617 drug-relationship-target triples were compiled from the Therapeutic Target Database [4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
@@ -79,6 +82,7 @@ Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/t
 Finally, our fine-tuned model was benchmarked against ChatGPT and the original LLAMA2 model using the prompt "What can the drug with ID D0Y6UB do?". From the results, ChatGPT and the original LLAMA2 model were unable to respond to this prompt, whereas our fine-tuned model could suggest possible target proteins to the drug and the corresponding binding relationships.
 
 ChatGPT's response:
+
 ![ChatGPT_answer](/content/chatgpt.png)
 
 Original LLAMA2's response:
@@ -94,11 +98,6 @@ This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit
 
 ![immuno chatbot](/content/immuno-app-chatbot03.png)
 
-### original llma2-7b on HuggingFace
-Here is the original [LLMA2-7B application](https://1916e37232cabeda6a.gradio.live/) available on HuggingFace where users can test the implementation for themselves. 
-![original llma-7b](/content/original-llma2-7b.png)
-
-
 ## Relevant Biomedical Knowledge Graphs
 There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. 
 
@@ -110,7 +109,7 @@ There is a vast set of resources, especially well-curated biomedical knowledge g
 | Reactome Graph   | Yes          | 2018          | [Link](https://reactome.org/dev/graph-database) / [Paper](https://www.ncbi.nlm.nih.gov/pubmed/29377902) |
 | Hetionet         | Yes          | 2017          | [Link](https://het.io) / [Paper](https://doi.org/10.7554/elife.26726) |
 | DrugBank         | No           | 2008          | [Link](https://go.drugbank.com/) / [Paper](https://pubmed.ncbi.nlm.nih.gov/18048412/) |
-
+| Petagraph        | Yes          | 2023          | [Link](https://docs.rs/petgraph/latest/petgraph/) / [Paper](https://www.biorxiv.org/content/biorxiv/early/2023/02/13/2023.02.11.528088.full.pdf) | 
 
 ## References
 1. Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
@@ -120,3 +119,5 @@ There is a vast set of resources, especially well-curated biomedical knowledge g
 3. Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen. LoRA: Low-Rank Adaptation of Large Language Models, https://arxiv.org/pdf/2106.09685.pdf 
 
 4. Y. Zhou, Y. T. Zhang, D. H. Zhao, X. Y. Yu, X. Y. Shen, Y. Zhou, S. S. Wang , Y. Q. Qiu*, Y. Z. Chen* & F. Zhu* . TTD: Therapeutic Target Database describing target druggability information. Nucleic Acids Research. doi: 10.1093/nar/gkad751 (2023). PMID: 37713619
+
+5. Stear, B. J., Ahooyi, T. M., Vasisht, S., Simmons, A., Beigel, K., Callahan, T. J., Silverstein, J. C., &amp; Taylor, D. M. (2023, January 1). Petagraph: A large-scale unifying knowledge graph framework for integrating biomolecular and biomedical data. bioRxiv. https://www.biorxiv.org/content/10.1101/2023.02.11.528088v1 
