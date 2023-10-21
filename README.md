@@ -20,7 +20,7 @@ Given that LLMs can answer queries quickly and efficiently, they could be useful
 
 Knowledge graphs can store factually correct relationships between data points, giving them the ability to answer complex queries. Hence, we believe that fine-tuning LLMs with knowledge graphs could aid LLMs in recommending drug treatments.
 
-## Preliminary Workflow
+## Initial Brainstorming
 ```mermaid
 graph LR;
   A["Small-scale experiments
