@@ -1,7 +1,7 @@
 ![graphic](/content/cmu-hackathon-graphic.jfif)
 
 # graphbasedloading
-This project was developed by our team at the 2023 Carnegie Mellon & DNAnexus Hackathon hosted on October 19th to 21st, 2023. Scientists across the country worked together in-person and remotely to advance "data management and graph extraction for large models in the biomedical space". 
+This project was developed at the **2023** Carnegie Mellon & DNAnexus Hackathon** hosted on October 19th to 21st, 2023. Scientists across the country worked together in-person and remotely to advance **_data management and graph extraction for large models in the biomedical space_**s
 
 ## Team
 Our team came together from multiple locations. 
