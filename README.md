@@ -44,6 +44,9 @@ query prompt with triples"]
   I-->F
 ```
 
+## Updated Workflow
+![Sample Graph](/updated_workflow.png)
+
 ## Methodology
 ### Dataset
 38,617 drug-relationship-target triples were compiled from the Therapeutic Target Database [4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
