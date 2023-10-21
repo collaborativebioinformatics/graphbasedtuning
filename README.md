@@ -96,12 +96,14 @@ The landscape of well-curated biomedical knowledge graphs is vast. In the future
 | Knowledge Source | Open Source? | Date Released | URL       |
 | ---------------- | ------------ | ------------- | --------- |
 | PrimeKG          | Yes          | 2023          | [Link](https://zitniklab.hms.harvard.edu/projects/PrimeKG) / [Paper](https://www.nature.com/articles/s41597-023-01960-3) |
-| PharmGKB         | Yes          | 2022          | [Link]() / [Paper]() |
+| Petagraph        | Yes          | 2023          | [Link](https://docs.rs/petgraph/latest/petgraph/) / [Paper](https://www.biorxiv.org/content/biorxiv/early/2023/02/13/2023.02.11.528088.full.pdf) | 
+| RTX-KG2         | Yes          | 2022          | [Link](https://github.com/RTXteam/RTX-KG2) / [Paper](https://doi.org/10.1186/s12859-022-04932-3) |
+| Drug Repurposing Knowledge Graph | Yes | 2021    | [Link](https://github.com/gnn4dr/DRKG) / [Paper](https://pubmed.ncbi.nlm.nih.gov/33571675/) |
 | ROBOKOP          | Yes          | 2019          | [Link](https://robokop.renci.org/) / [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00683) |
 | Reactome Graph   | Yes          | 2018          | [Link](https://reactome.org/dev/graph-database) / [Paper](https://www.ncbi.nlm.nih.gov/pubmed/29377902) |
 | Hetionet         | Yes          | 2017          | [Link](https://het.io) / [Paper](https://doi.org/10.7554/elife.26726) |
 | DrugBank         | No           | 2008          | [Link](https://go.drugbank.com/) / [Paper](https://pubmed.ncbi.nlm.nih.gov/18048412/) |
-| Petagraph        | Yes          | 2023          | [Link](https://docs.rs/petgraph/latest/petgraph/) / [Paper](https://www.biorxiv.org/content/biorxiv/early/2023/02/13/2023.02.11.528088.full.pdf) | 
+
 
 ## References
 1. Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
