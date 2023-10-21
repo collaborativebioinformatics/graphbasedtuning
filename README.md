@@ -45,19 +45,19 @@ query prompt with triples"]
 ```
 
 ## Methodology
-**Dataset**: 44,663 drug-relationship-target triples were compiled from the Therapeutic Target Database[4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
+**Dataset**: 38,617 drug-relationship-target triples were compiled from the Therapeutic Target Database [4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
 
+Below is a knowledge graph generated from 20 sample triples.
 ![Sample Graph](graph.png)
 
-**Preprocessing**: The triples were preprocessed into a prompt-response format for finetuning LLAMA2 in “inputdata.txt” by leveraging the GPT API.  Raw triples in CSV format were fed to the API with a formatting tranformation prompt to create appropriate instruction answer prompts for LLAMA2 tuningin. 
+**Preprocessing**: Using a self-written algorithm, the triples were preprocessed into a prompt-response format for finetuning LLAMA2. For instance, a sample prompt would be "[INST] Tell me more about the drug with ID D07OAC. [/INST]", and its corresponding response would be "Drug D07OAC is an inhibitor to target protein S5A2_HUMAN."
 
-<!-- Training and Inference: A LLAMA2-7b model was then fine-tuned on the preprocessed data. -->
-**Fine-tuning**: Within fine-tuning techniques, traditional approaches usually require retraining the last layers of the LLMs which would cost a huge amount of computational cost. To overcome this issue, we implemented QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce the training and inference cost. Using the knowledge graph dataset represented as triplets as shown above, we were able to fine tune LLMs-7B on a NVIDIA Tesla A100 within 2 hours.
+**Fine-tuning**: Traditional fine-tuning approaches generally require retraining the last layers of the LLMs, which is computationally-expensive. To overcome this, we leveraged QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce training and inference costs. A LLMs-7B model was fine-tuned on our preprocessed data for 3 epochs. Training was done on a NVIDIA Tesla A100 and training time was approximately XXX hours.
 
 **Deployment**: Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/tminh/nexus
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
-**Inference**: Finally, our fine-tuned model was benchmarked as shown [here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
+**Inference and Results**: Finally, our fine-tuned model was benchmarked against ChatGPT and the original LLAMA2 model using the prompt "What can the drug with ID D07OAC do?". From the results, ChatGPT and the original LLAMA2 model were unable to respond to this prompt, whereas our fine-tuned model could suggest possible target proteins to the drug and the corresponding binding relationships.
 
 ## References
 1. Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
