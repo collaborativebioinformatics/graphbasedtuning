@@ -90,7 +90,7 @@ Original LLAMA2's response:
 
 Our fine-tuned LLAMA2's response:
 
-## Related Works
+## Future Work
 
 
 ## Future Directions
