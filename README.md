@@ -45,11 +45,11 @@ query prompt with triples"]
 ```
 
 ## Methodology
-**Dataset**: 44,663 drug-relationship-target triplets were compiled from the Therapeutic Target Database[4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
+**Dataset**: 44,663 drug-relationship-target triples were compiled from the Therapeutic Target Database[4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
 
 ![Sample Graph](graph.png)
 
-**Preprocessing**: The triplets were preprocessed into a prompt-response format for LLAMA2 in “inputdata.txt”.
+**Preprocessing**: The triples were preprocessed into a prompt-response format for finetuning LLAMA2 in “inputdata.txt” by leveraging the GPT API.  Raw triples in CSV format were fed to the API with a formatting tranformation prompt to create appropriate instruction answer prompts for LLAMA2 tuningin. 
 
 <!-- Training and Inference: A LLAMA2-7b model was then fine-tuned on the preprocessed data. -->
 **Fine-tuning**: Within fine-tuning techniques, traditional approaches usually require retraining the last layers of the LLMs which would cost a huge amount of computational cost. To overcome this issue, we implemented QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce the training and inference cost. Using the knowledge graph dataset represented as triplets as shown above, we were able to fine tune LLMs-7B on a NVIDIA Tesla A100 within 2 hours.
