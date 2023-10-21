@@ -49,19 +49,22 @@ query prompt with triples"]
 
 ![Sample Graph](graph.png)
 
-**Preprocessing**: The triplets were preprocessed into a prompt-response format for LLAMA2, see “inputdata.txt”. Sample: '<s>[INST] Tell me more about the drug with ID D07OAC. [/INST] Drug D07OAC is an inhibitor to target protein S5A2_HUMAN. </s>'
+**Preprocessing**: The triplets were preprocessed into a prompt-response format for LLAMA2 in “inputdata.txt”.
 
 <!-- Training and Inference: A LLAMA2-7b model was then fine-tuned on the preprocessed data. -->
-**Fine-tuning**: Within fine-tuning techniques, traditional approach usually requires retraining the last layers of the LLMs which would cost a huge amount of computational cost. For your experiement, we used a technique called QLora which is a efficient parameter tuning method that use Low Rank Adaptation and Double Quantization to reduce the training and inferencing cost. Using the knowledge graph dataset represented as triplets as showed above, we were able to fine tune LLMs-7B on a NVIDIA Tesla A100 within 2 hours.
+**Fine-tuning**: Within fine-tuning techniques, traditional approaches usually require retraining the last layers of the LLMs which would cost a huge amount of computational cost. To overcome this issue, we implemented QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce the training and inference cost. Using the knowledge graph dataset represented as triplets as shown above, we were able to fine tune LLMs-7B on a NVIDIA Tesla A100 within 2 hours.
 
-**Deployment**: We were above to deploy our fine-tuned model LLaMA2Glenda at https://huggingface.co/spaces/tminh/nexus
+**Deployment**: Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/tminh/nexus
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
 
-**Inference**: The last step of the benchmarking step is to conduct experiements as show (should be replaced with our work) [here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
+**Inference**: Finally, our fine-tuned model was benchmarked as shown [here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
 
 
 ## References
 Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
-Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer. QLoRA: Efficient Finetuning of Quantized LLMs. 23 May 2023, https://arxiv.org/pdf/2305.14314.pdf  
+Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer. 
+
+QLoRA: Efficient Finetuning of Quantized LLMs. 23 May 2023, https://arxiv.org/pdf/2305.14314.pdf  
+
 Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen. LoRA: Low-Rank Adaptation of Large Language Models, https://arxiv.org/pdf/2106.09685.pdf  
