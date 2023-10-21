@@ -93,8 +93,8 @@ Our fine-tuned LLAMA2's response:
 ## Related Works
 
 
-## Relevant Biomedical Knowledge Graphs
-There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. 
+## Future Directions
+There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. Future extensions of this project could expand on fine-tuning using these additional KGs. 
 
 | Knowledge Source | Open Source? | Date Released | URL       |
 | ---------------- | ------------ | ------------- | --------- |
