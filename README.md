@@ -89,7 +89,7 @@ Original LLAMA2's response:
 Our fine-tuned LLAMA2's response:
 
 ## Future Directions
-There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. In the future, we plan to fine-tune LLMs on other well-curated biomedical knowledge graphs, enabling LLMs to answer a wider variety of treatment-related queries. Additional extensions of this project could expand on fine-tuning using these additional KGs. 
+There landscape of well-curated biomedical knowledge graphs is vast. In the future, we plan to fine-tune LLMs onto additional biomedical KGs, enabling LLMs to answer a wider variety of treatment-related queries.
 
 | Knowledge Source | Open Source? | Date Released | URL       |
 | ---------------- | ------------ | ------------- | --------- |
