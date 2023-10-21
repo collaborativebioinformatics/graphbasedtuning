@@ -45,18 +45,18 @@ query prompt with triples"]
 ```
 
 ## Methodology
-Dataset: We compiled 44,663 drug-relationship-target triplets from the xxx database, which are in “drug_relationship_target.csv”.
+**Dataset**: We compiled 44,663 drug-relationship-target triplets from the xxx database, which are in “drug_relationship_target.csv”.
 
-Preprocessing: The triplets were preprocessed into a prompt-response format for LLAMA2, see “inputdata.txt”. Sample: '<s>[INST] Tell me more about the drug with ID D07OAC. [/INST] Drug D07OAC is an inhibitor to target protein S5A2_HUMAN. </s>'
+**Preprocessing**: The triplets were preprocessed into a prompt-response format for LLAMA2, see “inputdata.txt”. Sample: '<s>[INST] Tell me more about the drug with ID D07OAC. [/INST] Drug D07OAC is an inhibitor to target protein S5A2_HUMAN. </s>'
 
 <!-- Training and Inference: A LLAMA2-7b model was then fine-tuned on the preprocessed data. -->
-Fine-tuning: Within fine-tuning techniques, traditional approach usually requires retraining the last layers of the LLMs which would cost a huge amount of computational cost. For your experiement, we used a technique called QLora which is a efficient parameter tuning method that use Low Rank Adaptation and Double Quantization to reduce the training and inferencing cost. Using the knowledge graph dataset represented as triplets as showed above, we were able to fine tune LLMs-7B on a NVIDIA Tesla A100 within 2 hours.
+**Fine-tuning**: Within fine-tuning techniques, traditional approach usually requires retraining the last layers of the LLMs which would cost a huge amount of computational cost. For your experiement, we used a technique called QLora which is a efficient parameter tuning method that use Low Rank Adaptation and Double Quantization to reduce the training and inferencing cost. Using the knowledge graph dataset represented as triplets as showed above, we were able to fine tune LLMs-7B on a NVIDIA Tesla A100 within 2 hours.
 
-Deployment: We were above to deploy our fine-tuned model LLaMA2Glenda at https://huggingface.co/spaces/tminh/nexus
+**Deployment**: We were above to deploy our fine-tuned model LLaMA2Glenda at https://huggingface.co/spaces/tminh/nexus
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
 
-Inference: The last step of the benchmarking step is to conduct experiements as show (should be replaced with our work) ![here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
+**Inference**: The last step of the benchmarking step is to conduct experiements as show (should be replaced with our work) [here](https://github.com/tanchongmin/TensorFlow-Implementations/blob/main/Tutorial/LLM%20with%20Knowledge%20Graphs.ipynb)
 
 
 ## References
