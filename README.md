@@ -72,6 +72,14 @@ This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit
 ## Relevant Biomedical Knowledge Graphs
 There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. 
 
+| Knowledge Source | Open Source? | Date Released | URL       |
+| ---------------- | ------------ | ------------- | --------- |
+| DrugBank         | No           | 2008          | [Link](https://go.drugbank.com/) / [Paper](https://pubmed.ncbi.nlm.nih.gov/18048412/) |
+| Hetionet         | Yes          | 2017          | [Link](https://het.io) / [Paper](https://doi.org/10.7554/elife.26726) |
+| PharmGKB         | Yes          | 2022          | [Link]() / [Paper]() |
+| PrimeKG          | Yes          | 2023          | [Link](https://zitniklab.hms.harvard.edu/projects/PrimeKG) / [Paper](https://www.nature.com/articles/s41597-023-01960-3) |
+| Reactome Graph   | Yes          | 2018          | [Link](https://reactome.org/dev/graph-database) / [Paper](https://www.ncbi.nlm.nih.gov/pubmed/29377902) |
+| ROBOKOP          | Yes         | 2019          | [Link](https://robokop.renci.org/) / [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00683) |
 
 
 ## References
