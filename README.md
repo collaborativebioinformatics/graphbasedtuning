@@ -65,6 +65,8 @@ ChatGPT's response:
 Original LLAMA2's response:
 ![LLAMA2_answer](/content/LLAMA2.png)
 
+Our fine-tuned LLAMA2's response:
+
 ## Related Works
 
 ### Jane: the Immunology Knowledge Assistant
@@ -90,9 +92,8 @@ There is a vast set of resources, especially well-curated biomedical knowledge g
 
 ## References
 1. Pan, S., Luo, L., Wang, Y., Chen, C. et al. Unifying Large Language Models and Knowledge Graphs: A Roadmap. 20 June 2023, https://doi.org/10.48550/arXiv.2306.08302  
-Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer. 
 
-2. QLoRA: Efficient Finetuning of Quantized LLMs. 23 May 2023, https://arxiv.org/pdf/2305.14314.pdf  
+2. Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, Luke Zettlemoyer. QLoRA: Efficient Finetuning of Quantized LLMs. 23 May 2023, https://arxiv.org/pdf/2305.14314.pdf  
 
 3. Edward J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean Wang, Lu Wang, Weizhu Chen. LoRA: Low-Rank Adaptation of Large Language Models, https://arxiv.org/pdf/2106.09685.pdf 
 
