@@ -92,11 +92,6 @@ Our fine-tuned LLAMA2's response:
 
 ## Related Works
 
-### Jane: the Immunology Knowledge Assistant
-This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit.app/#jane-the-immunology-knowledge-assistant) is a large language model which was fed information from Janeway's Immunobiology and Organ Mapping Antibody Panels (OMAPs) from Human Reference Atlas Portal. Users can ask any immunology questions, but the input prompt influences the quality output/response. 
-![immuno chatbot](/content/immuno-app-chatbot01.png)
-
-![immuno chatbot](/content/immuno-app-chatbot03.png)
 
 ## Relevant Biomedical Knowledge Graphs
 There is a vast set of resources, especially well-curated biomedical knowledge graphs, onto which similar applications can be built. 
