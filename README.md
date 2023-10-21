@@ -59,7 +59,7 @@ query prompt with triples"]
 ```
 
 ## Final Workflow
-![Sample Graph](/updated_workflow.png)
+![Sample Graph](/content/updated_workflow.png)
 
 ## Methodology
 ### Dataset
@@ -76,7 +76,7 @@ Traditional fine-tuning approaches generally require retraining the last layers 
 
 ### Deployment
 Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/tminh/nexus
-![Demo](demo.png)
+![Demo](/content/demo.png)
 ![Pipeline Overview](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
 ### Inference and Results
