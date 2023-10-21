@@ -75,7 +75,7 @@ Using a self-written algorithm, the triples were preprocessed into a prompt-resp
 Traditional fine-tuning approaches generally require retraining the last layers of the LLMs, which is computationally-expensive. To overcome this, we leveraged QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce training and inference costs. A LLMs-7B model was fine-tuned on our preprocessed data for 3 epochs. Training was done on a NVIDIA Tesla A100 and training time was approximately 3 hours.
 
 ### Deployment
-Our fine-tuned model LLaMA2Glenda is deployed at [https://huggingface.co/spaces/tminh/nexus](https://huggingface.co/tminh/llama-2-7b-glendalorian)
+Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/tminh/llama-2-7b-glendalorian
 ![Pipeline Overview](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
 ### Inference and Results
@@ -89,7 +89,6 @@ Finally, our fine-tuned model was benchmarked against ChatGPT and the original L
 ![LLAMA2_answer](/content/LLAMA2.png)
 
 **Our fine-tuned LLAMA2's response:**
-https://huggingface.co/tminh/llama-2-7b-glendalorian
 _Currently in progress_
 
 ## Future Directions
