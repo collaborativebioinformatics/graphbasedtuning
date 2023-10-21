@@ -78,7 +78,7 @@ Our fine-tuned LLAMA2's response:
 This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit.app/#jane-the-immunology-knowledge-assistant) is a large language model which was fed information from Janeway's Immunobiology and Organ Mapping Antibody Panels (OMAPs) from Human Reference Atlas Portal. Users can ask any immunology questions, but the input prompt influences the quality output/response. 
 ![immuno chatbot](/content/immuno-app-chatbot01.png)
 
-![immuno chatbot](/content/immuno-app-chatbot02.png)
+![immuno chatbot](/content/immuno-app-chatbot03.png)
 
 ### original llma2-7b on HuggingFace
 Here is the original [LLMA2-7B application](https://1916e37232cabeda6a.gradio.live/) available on HuggingFace where users can test the implementation for themselves. 
