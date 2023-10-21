@@ -45,19 +45,24 @@ query prompt with triples"]
 ```
 
 ## Methodology
-**Dataset**: 38,617 drug-relationship-target triples were compiled from the Therapeutic Target Database [4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
+### Dataset
+38,617 drug-relationship-target triples were compiled from the Therapeutic Target Database [4], which are in “drug_relationship_target.csv”. URL to database: https://db.idrblab.net/ttd/ 
 
 Below is a knowledge graph generated from 20 sample triples.
 ![Sample Graph](/content/graph.png)
 
-**Preprocessing**: Using a self-written algorithm, the triples were preprocessed into a prompt-response format for finetuning LLAMA2. For instance, a sample prompt would be "[INST] Tell me more about the drug with ID D07OAC. [/INST]", and its corresponding response would be "Drug D07OAC is an inhibitor to target protein S5A2_HUMAN."
+### Preprocessing
+Using a self-written algorithm, the triples were preprocessed into a prompt-response format for finetuning LLAMA2. For instance, a sample prompt would be "[INST] Tell me more about the drug with ID D07OAC. [/INST]", and its corresponding response would be "Drug D07OAC is an inhibitor to target protein S5A2_HUMAN."
 
-**Fine-tuning**: Traditional fine-tuning approaches generally require retraining the last layers of the LLMs, which is computationally-expensive. To overcome this, we leveraged QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce training and inference costs. A LLMs-7B model was fine-tuned on our preprocessed data for 3 epochs. Training was done on a NVIDIA Tesla A100 and training time was approximately XXX hours.
+### Fine-tuning
+Traditional fine-tuning approaches generally require retraining the last layers of the LLMs, which is computationally-expensive. To overcome this, we leveraged QLora, an efficient parameter tuning method that uses Low Rank Adaptation and Double Quantization to reduce training and inference costs. A LLMs-7B model was fine-tuned on our preprocessed data for 3 epochs. Training was done on a NVIDIA Tesla A100 and training time was approximately XXX hours.
 
-**Deployment**: Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/tminh/nexus
+### Deployment
+Our fine-tuned model LLaMA2Glenda is deployed at https://huggingface.co/spaces/tminh/nexus
 ![alt text](https://global.discourse-cdn.com/business7/uploads/streamlit/optimized/3X/9/1/91a784d6b22ea11a8542c9a1a51f001eb5ab91fc_2_690x445.jpeg)
 
-**Inference and Results**: Finally, our fine-tuned model was benchmarked against ChatGPT and the original LLAMA2 model using the prompt "What can the drug with ID D07OAC do?". From the results, ChatGPT and the original LLAMA2 model were unable to respond to this prompt, whereas our fine-tuned model could suggest possible target proteins to the drug and the corresponding binding relationships.
+### Inference and Results
+Finally, our fine-tuned model was benchmarked against ChatGPT and the original LLAMA2 model using the prompt "What can the drug with ID D07OAC do?". From the results, ChatGPT and the original LLAMA2 model were unable to respond to this prompt, whereas our fine-tuned model could suggest possible target proteins to the drug and the corresponding binding relationships.
 ![LLAMA2_answer](/content/LLAMA2_original.png)
 
 ## Related Works
@@ -68,6 +73,9 @@ This [application in immunology](https://rdilip-janewayq-a-main-rfx7el.streamlit
 
 ![immuno chatbot](/content/immuno-app-chatbot02.png)
 
+### original llma2-7b on HuggingFace
+Here is the original [LLMA2-7B application](https://1916e37232cabeda6a.gradio.live/) available on HuggingFace where users can test the implementation for themselves. 
+![original llma-7b](/content/original-llma2-7b.png)
 
 
 ## Relevant Biomedical Knowledge Graphs
