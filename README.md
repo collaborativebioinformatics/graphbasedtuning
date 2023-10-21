@@ -90,6 +90,7 @@ Finally, our fine-tuned model was benchmarked against ChatGPT and the original L
 ![LLAMA2_answer](/content/LLAMA2.png)
 
 **Our fine-tuned LLAMA2's response:**
+https://huggingface.co/tminh/llama-2-7b-glendalorian
 _Currently in progress_
 
 ## Future Directions
@@ -97,8 +98,8 @@ The landscape of well-curated biomedical knowledge graphs is vast. In the future
 
 | Knowledge Source | Open Source? | Date Released | URL       |
 | ---------------- | ------------ | ------------- | --------- |
-| PrimeKG          | Yes          | 2023          | [Link](https://zitniklab.hms.harvard.edu/projects/PrimeKG) / [Paper](https://www.nature.com/articles/s41597-023-01960-3) |
 | Petagraph        | Yes          | 2023          | [Link](https://docs.rs/petgraph/latest/petgraph/) / [Paper](https://www.biorxiv.org/content/biorxiv/early/2023/02/13/2023.02.11.528088.full.pdf) | 
+| PrimeKG          | Yes          | 2023          | [Link](https://zitniklab.hms.harvard.edu/projects/PrimeKG) / [Paper](https://www.nature.com/articles/s41597-023-01960-3) |
 | RTX-KG2         | Yes          | 2022          | [Link](https://github.com/RTXteam/RTX-KG2) / [Paper](https://doi.org/10.1186/s12859-022-04932-3) |
 | Drug Repurposing Knowledge Graph | Yes | 2021    | [Link](https://github.com/gnn4dr/DRKG) / [Paper](https://pubmed.ncbi.nlm.nih.gov/33571675/) |
 | ROBOKOP          | Yes          | 2019          | [Link](https://robokop.renci.org/) / [Paper](https://pubs.acs.org/doi/10.1021/acs.jcim.9b00683) |
