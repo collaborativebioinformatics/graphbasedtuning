@@ -89,7 +89,7 @@ Finally, our fine-tuned model was benchmarked against ChatGPT and the original L
 ![LLAMA2_answer](/content/LLAMA2.png)
 
 **Our fine-tuned LLAMA2's response:**
-_Currently in progress_
+![finetuned_answer](/content/finetuned.png)
 
 ## Future Directions
 The landscape of well-curated biomedical knowledge graphs is vast. In the future, we plan to fine-tune LLMs onto additional biomedical KGs, enabling LLMs to answer a wider range of treatment-related queries.
