@@ -1,6 +1,6 @@
 ![graphic](/content/cmu-hackathon-graphic.jfif)
 
-# graphbasedloading
+# Graph Based Tuning
 This project was developed at the **2023 Carnegie Mellon & DNAnexus Hackathon** hosted on October 19th to 21st, 2023. Scientists across the country worked together in-person and remotely to advance applications in data management and graph extraction for large models in the biomedical space.
 
 ## Team
